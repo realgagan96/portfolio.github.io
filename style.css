@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #23153c;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: auto;
+}
+.left-side {
+  display: flex;
+  flex: 1;
+  border: 2px solid black;
+
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  flex-direction: column;
+  height: 45vh;
+}
+.h1tag {
+  font-size: 70px;
+  color: #fafafa;
+  text-shadow: 1px 5px 10px rgb(165, 165, 165);
+}
+.nametag {
+  font-size: 70px;
+  color: #fafafa;
+  text-shadow: 1px 5px 10px rgb(165, 165, 165);
+}
+.h1tag,
+.nametag:hover {
+  text-shadow: 1px 5px 10px grey;
+}
+.right-side {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid black;
+}
+.socialmedia{
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  flex-direction: column;
+  position: absolute;
+  border: 2px solid black;
+ 
+}
+.gitcat{
+  border-radius: 100%;
+}
+.linkedin{
+  border-radius: 20%;
+}
+.profileimg {
+  border-radius: 44%;
+}
+.proimg {
+  border-radius: 55%;
+  height: 350px;
+  width: 350px;
+}
+.proimg:hover {
+  box-shadow: 0px 1px 5px 5px gray;
+}
+#vantajs {
+  width: 100vw;
+  height: 88vh;
+  overflow: hidden;
+  z-index: 1;
+}
+.moreaboutme {
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  background-color: #23153c;
+  text-decoration: none;
+}
+.material-symbols-outlined {
+  font-size: 100px;
+  font-weight: 900;
+  color: blueviolet;
+}
+.material-symbols-outlined:hover {
+  color: grey;
+}
+.container-about {
+  padding-top: 80px;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  background-color: #23153c;
+  color: #fafafa;
+}
+#left-about {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 2px solid rgb(181, 0, 0);
+  padding: 20px;
+}
+.right-about {
+  display: flex;
+  flex: 1;
+  align-items: center;
+
+  border: 2px solid rgb(181, 0, 0);
+}
+.icons {
+  padding: 55px;
+}
+/* .jsicon{
+  
+  }
+  .htmlicon{
+   
+   
+   
+  }
+  .cssicon{
+    
+  }
+  .nodeicon{
+    
+  }
+  .booticon{
+    
+  }
+  .tailicon{
+   
+  } */
+.abouttag {
+  font-size: 40px;
+  color: #fafafa;
+  align-items: center;
+}
+.container-contact {
+  padding-top: 80px;
+  display: flex;
+  text-align: center;
+  background-color: #23153c;
+  color: #fafafa;
+}
+#projects {
+  padding: 20px;
+  border: 2px solid black;
+  margin: auto;
+}
+.card-img-top{
+  object-fit: cover;
+  min-height: 300px;
+  height: 350px;
+  
+  background-color: #673BB7;
+}
