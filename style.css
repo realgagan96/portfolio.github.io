@@ -14,7 +14,7 @@ body {
 .left-side {
   display: flex;
   flex: 1;
-  border: 2px solid black;
+  
 
   justify-content: center;
   align-self: center;
@@ -41,7 +41,7 @@ body {
   flex: 1;
   justify-content: center;
   align-self: center;
-  border: 2px solid black;
+  
 }
 .socialmedia{
   display: flex;
@@ -140,9 +140,10 @@ body {
   color: #fafafa;
   align-items: center;
 }
-.container-contact {
+.container-project {
   padding-top: 80px;
   display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: #23153c;
   color: #fafafa;
@@ -158,4 +159,15 @@ body {
   height: 350px;
   
   background-color: #673BB7;
+}
+#checkout{
+  width: fit-content;
+  text-align: center;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  color: #fafafa;
+  margin-top: 20px;
+  background-color: blueviolet;
 }
